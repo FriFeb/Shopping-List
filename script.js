@@ -185,7 +185,7 @@ function filterItems(e) {
     items.forEach((item => {
         item.style.display =
             item.textContent.toLocaleLowerCase().includes(inputText)
-                ? 'block'
+                ? 'flex'
                 : 'none';
     }));
 }
